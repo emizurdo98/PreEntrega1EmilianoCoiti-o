@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lora", sans-serif;
+}
+
+.contenedor {
+  width: 1320px;
+  height: 100vh;
+}
+
+.cabecera {
+  background-color: blue;
+  height: 15%;
+  display: FLEX;
+}
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav__link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: 0.65;
+}
+li {
+  display: inline;
+  justify-content: space-between;
+}
+.lista {
+  position: absolute;
+  top: 65px;
+}
+.cuerpo {
+  height: 70%;
+}
+.aneke-img {
+  display: flex;
+  justify-content: center;
+}
+.aneke-img img {
+  width: 1320px;
+  height: 100vh;
+}
+.afeitado-img img {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.afeitado-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pie {
+  height: 15%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.iconos {
+  display: flex;
+}
+
+.copyright {
+  display: flex;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-decoration: none;
+  margin: 5px 80px;
+}
+
+h1 {
+  color: green;
+}
